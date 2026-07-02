@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simon Says</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <div class="game-wrapper">
+    <h1>Simon Says Game</h1>
+    <p class="subtitle">Watch the pattern, then repeat it</p>
+
+    <div class="board">
+      <div class="simon-circle">
+        <button class="pad" data-color="green" id="green"></button>
+        <button class="pad" data-color="red" id="red"></button>
+        <button class="pad" data-color="yellow" id="yellow"></button>
+        <button class="pad" data-color="blue" id="blue"></button>
+
+        <div class="center-panel">
+          <div class="score-box">
+            <span class="score-label">Score</span>
+            <span class="score-value" id="score">0</span>
+          </div>
+          <button class="start-btn" id="startBtn">Start</button>
+          <div class="message" id="message">Press start to play</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <label for="speed">Speed</label>
+      <select id="speed">
+        <option value="600">Easy</option>
+        <option value="400" selected>Normal</option>
+        <option value="250">Hard</option>
+      </select>
+
+      <div class="best-score">Best: <span id="best">0</span></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
