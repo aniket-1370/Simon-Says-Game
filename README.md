@@ -32,7 +32,8 @@ A simple and interactive Simon-Says-Game built using HTML, CSS, and JavaScript. 
 
  📂 Project Structure
 
-Simon-Says-Game/
+Simon-Says-Game
+
 │
 ├── index.html
 ├── style.css
