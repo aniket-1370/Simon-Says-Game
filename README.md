@@ -34,11 +34,10 @@ A simple and interactive Simon-Says-Game built using HTML, CSS, and JavaScript. 
 
 Simon-Says-Game
 
-│
-├── index.html
-├── style.css
-├── app.js
-└── README.md
+|-- index.html
+|-- style.css
+|-- app.js
+|__ README.md
 
 📸 Preview
 The game consists of four colored buttons:
